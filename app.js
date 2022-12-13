@@ -11,11 +11,6 @@ const config = {
   http: {
     port: process.env.PORT || 8000,
     allow_origin: "*",
-  },
-   https: {
-    port: process.env.PORT_2 || 8443,
-    key:'./privatekey.pem',
-    cert:'./certificate.pem',
   }
 };
 
