@@ -4,7 +4,6 @@ require("dotenv/config");
 
 
 const config = {
-  logType: 3,
   rtmp: {
     port: process.env.RTMP || 1935,
     chunk_size: 60000,
